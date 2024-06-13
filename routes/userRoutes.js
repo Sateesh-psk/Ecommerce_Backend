@@ -11,6 +11,6 @@ router.post('/createAccount',userApi.insert_user)
 //update user details
 router.put('/updateDetails',userApi.update_user)
 //delete user account
-router.delete('/deleteAccount',userApi.delete_user)
+router.post('/deleteAccount',userApi.delete_user)
 
 module.exports = router

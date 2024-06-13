@@ -11,6 +11,6 @@ router.post('/addToCart',cartApi.insert_cart)
 //update cart items
 router.put('/updateCart',cartApi.update_cart)
 //delete cart item
-router.delete('/removeFromCart',cartApi.delete_cart)
+router.post('/removeFromCart',cartApi.delete_cart)
 
 module.exports = router
